@@ -1,0 +1,49 @@
+AWS:
+
+==============
+Part--1
+IAM-------------------U/G/R/P
+S3-------------------B1/B2/B2--Static website
+EC2-------------------------------------------LVM--A/R/U/D/Sus/---W---2012/2016/2019/2022
+Web Server----LVM---Nginx/Apache2/httpd
+Windows--Web--IIS
+XRDP--U/D/R--Access--GUI
+EIP-----P---IP
+EBS----V--20GB/30GB---EC2--EBS
+EFS------------------------------------LVM--Common File sysem//Netwok Driver
+VPC---------------Main--net==Subt1/sub2---TWo
+ELB---------------------------------------------ALB/CLB/NLB/GLB
+ASG--------------------------------------AMI---LC--ASG--EC2--Int/Dec
+CWA-----------------A----EC2--CPU--stop/t/shut
+SNS------------------------------------Emial/SMS
+Databases(mysql/postgresql/mssql)------
+AWS-CLI------------------------------------------------------W/L---via CLI--EC2--create
+=============================================
+Part--2
+Github/docker hub/bitbucket
+EBS
+AWS Lambda
+Codestart-----CI/CD
+CFT
+AWS Devops Tools
+Docker
+K8S
+ECR
+ECS
+EKS
+Jenkins---CI/CD
+Terraform--C.P.T
+Ansbile---C.M.T===IAC
+SSM
+Route53
+Jira
+PostMan
+====================================================
+
+Int--M.A
+Terraform
+Ansible
+=====================
+
+
+

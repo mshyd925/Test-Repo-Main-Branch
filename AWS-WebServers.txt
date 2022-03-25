@@ -1,0 +1,45 @@
+===============
+
+WebServer Configuration :
+
+IIS--Windows--WebServer:
+
+PowerShell:
+
+Install-WindowsFeature -name Web-Server -IncludeManagementTools
+
+
+
+
+UbuntuServer----Niginx Server
+$sudo apt-get update -y
+$sudo apt-get install nginx -y
+$sudo systemctl start nginx 
+$sudo systemctl status nginx
+$sudo systemctl stop nginx
+
+=================================
+
+Debin--Apache2 web server configuration
+
+$sudo apt-get update -y
+$sudo apt-get install apache2 -y
+$sudo systemctl start apache2
+$sudo systemctl status apache2
+$sudo systemctl stop apache2
+
+=======================================
+Redhat----httpd webserver
+$sudo yum update -y
+$sudo yum install httpd* -y
+$sudo systemctl start httpd
+$sudo systemctl status httpd
+$sudo systemctl stop httpd
+=========================================
+
+
+
+
+
+
+
